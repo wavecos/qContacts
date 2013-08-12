@@ -1,0 +1,18 @@
+var a = [
+{
+	"name": "Coca - Cola",
+	"representant": "Juan Perez",
+	"phone_number": "4487215"
+},
+{
+	"name": "Coca - Cola",
+	"representant": "Juan Perez",
+	"phone_number": "4487215"
+},
+{
+	"name": "Coca - Cola",
+	"representant": "Juan Perez",
+	"phone_number": "4487215"
+}
+]
+;
