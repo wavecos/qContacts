@@ -7,20 +7,44 @@ qContactsModule.controller('ContactsListController', function($scope, $http) {
 
 	var contacts = [
 				{
+					"code": "CAD001",
 					"name": "Coca - Cola",
 					"representant": "Juan Perez",
-					"phone_number": "4487215"
+					"city": "Cochabamba",
+					"country": "Bolivia",
+					"phone_number": "4487215",
+					"fax_number": "4434765",
+					"mobile_number": "70467564",
+					"website": "http://www.google.com",
+					"facebook": "http://fb.me/negocio",
+					"twitter": "@negocio"
 				},
 				{
+					"code": "CAD001",
 					"name": "Coca - Cola",
 					"representant": "Juan Perez",
-					"phone_number": "4487215"
+					"city": "Cochabamba",
+					"country": "Bolivia",
+					"phone_number": "4487215",
+					"fax_number": "4434765",
+					"mobile_number": "70467564",
+					"website": "http://www.google.com",
+					"facebook": "http://fb.me/negocio",
+					"twitter": "@negocio"
 				},
 				{
+					"code": "CAD001",
 					"name": "Coca - Cola",
 					"representant": "Juan Perez",
-					"phone_number": "4487215"
-				}
+					"city": "Cochabamba",
+					"country": "Bolivia",
+					"phone_number": "4487215",
+					"fax_number": "4434765",
+					"mobile_number": "70467564",
+					"website": "http://www.google.com",
+					"facebook": "http://fb.me/negocio",
+					"twitter": "@negocio"
+				},				
 	];
 
 	$scope.contacts = contacts;

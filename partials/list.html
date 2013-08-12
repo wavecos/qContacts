@@ -1,19 +1,45 @@
 
 <div class="row">
+
+	<div class="col-lg-1">
+		<button ng-click='addContact()' type="button" class="btn btn-primary">Adicionar</button>
+	</div>
+
+	<div class="col-lg-5">
+	</div>
+
+
+	<div class="col-lg-6">
+	    <div class="input-group">
+	    	<input type="search" ng-model="search" class="form-control" placeholder="Search Contact">
+	      <span class="input-group-btn">
+	        <button ng-click='searchContacts()' type="button" class="btn btn-default">Search</button>
+	      </span>
+	    </div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-12">&nbsp;</div>
+</div>
+
+<div class="row">
 	<div class="col-lg-12">
 		<table class="table table-striped table-bordered">
 			<thead>
 				<tr>
-					<th>Nombre</th>
+					<th>Nombre Empresa</th>
+					<th>Ciudad - Pais</th>
+					<th>Telefono / Fax</th>
 					<th>Representante</th>
-					<th>Telefono</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr ng-repeat="contact in contacts">
 					<td>{{contact.name}}</td>
+					<td>{{contact.city}} - {{contact.country}}</td>
+					<td>{{contact.phone_number}} / {{contact.fax_number}}</td>
 					<td>{{contact.representant}}</td>
-					<td>{{contact.phone_number}}</td>
 				</tr>
 			</tbody>
 		</table>
