@@ -62,6 +62,10 @@ qContactsModule.controller('ContactsListController', function($scope, $http) {
 
 });
 
+qContactsModule.controller('ContactController', function($scope) {
+
+});
+
 /* Routes */
 qContactsModule.config(function($routeProvider) {
 	$routeProvider.
@@ -71,7 +75,7 @@ qContactsModule.config(function($routeProvider) {
 		}).
 		when('/view/:id', {
 			controller: 'ContactController',
-			templateUrl: 'partials/contact.hml'
+			templateUrl: 'partials/detail.html'
 		}).
 		otherwise({
 			redirectTo: '/'
